@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 final TipLoadDialog loading1 = new TipLoadDialog(mActivity, "加载中", TipLoadDialog
                         .ICON_TYPE_LOADING);
                 loading1.show();
-                //模拟耗时操作.
+                //模拟耗时操作
                 findViewById(R.id.b_loading1).postDelayed(new Runnable() {
                     @Override
                     public void run() {
