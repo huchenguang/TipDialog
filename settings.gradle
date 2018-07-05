@@ -1,1 +1,1 @@
-include ':app', ':tipdialoglibrary'
+include ':app', ':library'
