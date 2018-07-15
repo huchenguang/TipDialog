@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            
             case R.id.b_loading1:
                 final TipLoadDialog loading1 = new TipLoadDialog(mActivity, "加载中", TipLoadDialog
                         .ICON_TYPE_LOADING);
